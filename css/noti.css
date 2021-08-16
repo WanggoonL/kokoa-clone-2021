@@ -1,0 +1,16 @@
+.noti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+  padding: 10px 0;
+}
+
+.noti h5 {
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+.noti i {
+  opacity: 0.2;
+}
