@@ -1,0 +1,34 @@
+body {
+  height: 100vh;
+}
+
+.friends-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 20px;
+  opacity: 0.3;
+}
+
+.friends-list__friend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 20px;
+}
+
+.friends-list__friend div:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.friends-list__friend div:last-child {
+  opacity: 0.3;
+}
+
+.friends-list__friend img {
+  width: 35px;
+  height: 35px;
+  border-radius: 35%;
+  margin-right: 10px;
+}
