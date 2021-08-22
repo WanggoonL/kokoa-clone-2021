@@ -1,0 +1,139 @@
+.index-header-icons {
+  position: relative;
+}
+
+.index-header-icons .circle {
+  position: absolute;
+  bottom: 20px;
+  right: 15px;
+}
+
+.icons-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 20px;
+  height: 40%;
+}
+
+.icons-row a {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.icons-row a:hover {
+  text-shadow: 1px 1px 1px gray;
+}
+
+.icons-row a i {
+  margin: 30px 15px;
+}
+
+.icons-row a:nth-child(2) span {
+  width: 60%;
+  text-align: center;
+}
+
+.unoccupay-box {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  opacity: 0.6;
+  font-weight: 500;
+}
+
+.unoccupay-box h6 {
+  padding: 180px 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.open-chat {
+  display: block;
+  margin: 0 20px;
+}
+
+.open-chat .open-chat-top {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.5;
+  margin-bottom: 20px;
+}
+
+.open-chat .open-chat-top h6 {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.open-chat-box-column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.open-chat-box-column img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8%;
+}
+
+.open-chat-box__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.open-chat-box__text .open-chat-box__text-picture img {
+  width: 15px;
+  height: 15px;
+  border-radius: 30%;
+}
+
+.open-chat-box__text h4 {
+  margin-bottom: 5px;
+}
+
+.open-chat-box__text > span {
+  opacity: 0.5;
+  margin-bottom: 5px;
+}
+
+.open-chat-box__text-picture span {
+  font-size: 15px;
+  opacity: 0.4;
+  text-align: center;
+  margin-left: 4px;
+}
+
+.open-chat-box__text-picture span:last-child {
+  opacity: 0.8;
+  color: fuchsia;
+}
+
+.open-chat-box__img {
+  position: relative;
+}
+
+.open-chat-box__img-heart {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  bottom: 5px;
+  right: 6px;
+  width: 42px;
+  height: 15px;
+  font-size: 11px;
+  border-radius: 13px;
+}
+
+.open-chat-box__img-heart i {
+  margin-right: 5px;
+}
