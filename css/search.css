@@ -8,37 +8,6 @@
   right: 15px;
 }
 
-.icons-row {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  margin: 20px;
-  height: 40%;
-}
-
-.icons-row a {
-  color: black;
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.2s;
-}
-
-.icons-row a:hover {
-  text-shadow: 1px 1px 1px gray;
-}
-
-.icons-row a i {
-  margin: 30px 15px;
-}
-
-.icons-row a:nth-child(2) span {
-  width: 60%;
-  text-align: center;
-}
-
 .unoccupay-box {
   display: flex;
   flex-direction: column;
@@ -136,4 +105,8 @@
 
 .open-chat-box__img-heart i {
   margin-right: 5px;
+}
+
+.last-box {
+  padding-bottom: 50px;
 }

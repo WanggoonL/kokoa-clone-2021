@@ -24,11 +24,25 @@
   font-weight: 500;
 }
 
+.first-picture__text span {
+  font-size: 15px;
+  background-color: white;
+  border: 2px solid orangered;
+  color: orangered;
+  font-weight: 600;
+  border-radius: 50%;
+  margin-left: 10px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+}
+
 .first-picture .first-picture__box {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  width: 86%;
 }
 
 .first-picture .first-picture__noti {

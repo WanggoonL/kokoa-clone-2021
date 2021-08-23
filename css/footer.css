@@ -17,9 +17,13 @@
   padding: 5px 12px;
 }
 
-.icon-nav .fa-search,
-.icon-nav .fa-ellipsis-h {
-  opacity: 0.3;
+.icon-nav i {
+  opacity: 0.5;
+}
+
+.icon-nav .icon-black {
+  opacity: 1;
+  color: black;
 }
 
 .icon-nav .icon-nav-comment {

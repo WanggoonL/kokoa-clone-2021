@@ -9,10 +9,14 @@
 @import "border-bottom.css";
 @import "friends.css";
 @import "footer.css";
+@import "icon-row.css";
 
 @import "chats.css";
 @import "search.css";
+@import "etc.css";
 
 body {
   font-family: "Open Sans", sans-serif;
+  max-width: 800px;
+  min-height: 800px;
 }
