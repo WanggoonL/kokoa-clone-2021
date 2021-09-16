@@ -1,0 +1,49 @@
+.settings-column {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 30px;
+}
+
+.settings-column > div {
+  margin: 24px 0;
+}
+
+.settings-column div i {
+  margin-right: 20px;
+  width: 20px;
+  text-align: center;
+}
+
+.settings-space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings-space > span {
+  opacity: 0.4;
+}
+
+.span-circle {
+  display: flex;
+  align-items: center;
+}
+
+.span-circle span:last-child {
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  background-color: orangered;
+  color: white;
+  font-size: 10px;
+  border-radius: 50%;
+}
+
+.index-header a {
+  color: black;
+}
