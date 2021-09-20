@@ -30,6 +30,18 @@
   position: relative;
 }
 
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(5px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .icon-nav .icon-nav-comment span {
   position: absolute;
   background-color: orangered;
@@ -39,6 +51,7 @@
   color: white;
   top: -5px;
   left: 23px;
+  animation: notificationAnimation 1s ease-in-out infinite;
 }
 
 .icon-nav .icon-nav-dot {
@@ -58,4 +71,31 @@
   height: 4px;
   border-radius: 50%;
   background-color: orangered;
+}
+
+@keyframes appearBtnAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.icon-nav a {
+  transform: translateY(80px);
+  opacity: 1;
+  animation: appearBtnAnimation 0.3s ease-in-out forwards;
+}
+
+.icon-nav a:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.icon-nav a:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.icon-nav a:last-child {
+  animation-delay: 0.9s;
 }
